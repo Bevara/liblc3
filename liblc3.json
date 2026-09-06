@@ -1,0 +1,17 @@
+{
+    "name": "liblc3",
+    "description": "LC3 (Bluetooth LE Audio) decoder",
+    "filters":["lc3dec"],
+    "help": "This filter decodes LC3 bitstream files, the codec of Bluetooth LE Audio, using Google's liblc3.",
+    "support": [
+        "audio"
+    ],
+    "sources":"https://bevara.ddns.net/sources/liblc3.accessor",
+    "filter_source":{
+        "lc3dec" : "dec_lc3.c"
+    },
+    "extension":{
+      "lc3" : "audio"
+    },
+    "licence_required":false
+}
